@@ -75,6 +75,8 @@ This is a manual file edit. The API has only **GET** operations; it does not sav
 
 ## 5. Adapt one entity from your project
 
+Follow **[From your models to a working API](docs/from-models-to-prototype.md)** for a step-by-step guide: select a use case, map model attributes to JSON and routes, adapt the example, check the results and plan the next operation. Keep it open beside your own models and code.
+
 Choose an entity already described by your UML/data model and sample JSON. Identify its ID field, adapt the file and route names, and change the dictionary key used by the search. Keep the **read all / read one** pattern first. Check an existing ID, a missing ID and an invalid value.
 
 Keep field names and value types consistent with your model. String IDs need a matching path parameter type and comparison. This activity supports the project without adding assessment requirements. The starter has no login: a student ID is a lookup, not proof of identity. Keep data fictional.
